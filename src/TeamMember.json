@@ -2,7 +2,9 @@ DATA = [
   {
     "id": 0,
     "name": "Jack Wu",
-    "title": "Software Engineer"
+    "title": "Software Engineer",
+    "thumbnail_image": "https://avatars3.githubusercontent.com/u/14619250?s=400&u=8e6d1508ba6a14ef492e97710c3900bc13182eb9&v=4"
+
   }
 
 ]
