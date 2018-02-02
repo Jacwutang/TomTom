@@ -18,7 +18,10 @@ class Team extends Component {
     return this.state.teammates.map(member =>
       <TeamMemberDetail key={member.id} title={member.title}
       name={member.name}
-      thumbnail_image={member.thumbnail_image}/>
+      thumbnail_image={member.thumbnail_image}
+      github_url={member.github_url}
+      linkedin_url={member.linkedin_url}
+      />
     );
   }
 

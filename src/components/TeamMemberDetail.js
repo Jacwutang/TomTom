@@ -7,7 +7,7 @@ import Button from './Button';
 
 
 export default (props) => {
-  const {title,name,thumbnail_image, github, linkedin} = props;
+  const {title,name,thumbnail_image, github_url, linkedin_url} = props;
 
   return(
     <Card>
@@ -30,12 +30,19 @@ export default (props) => {
       <View style={styles.buttonWrapperStyle}>
 
         <View style={styles.buttonContentStyle}>
-          <Button onPress={() => Linking.openURL(url)}>
+          <Button onPress={() => Linking.openURL(linkedin_url)}>
+            <Image
+            style={styles.iconStyle}
+            source={require('../../assets/linkedin.png')}
+            />
 
           </Button>
 
-          <Button onPress={() => Linking.openURL(url)}>
-
+          <Button onPress={() => Linking.openURL(github_url)}>
+            <Image
+            style={styles.iconStyle}
+            source={require('../../assets/github-logo.png')}
+            />
           </Button>
         </View>
 
@@ -49,9 +56,19 @@ export default (props) => {
 }
 
 const styles = {
+  iconStyle: {
+    flex: 1,
+    height: 25,
+    width: 25,
+    marginTop: 15,
+
+
+  },
+
   buttonContentStyle: {
     justifyContent: 'space-around',
     flexDirection: 'row',
+
   },
 
   buttonWrapperStyle:{
