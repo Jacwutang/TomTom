@@ -5,6 +5,7 @@ import { AppRegistry, Text, View } from 'react-native';
 import configureStore from './store';
 import Team from './src/components/Team';
 import Header from './src/components/Header';
+import Footer from './src/components/Footer';
 
 const App = () => {
   const store = configureStore();
@@ -14,6 +15,10 @@ const App = () => {
       <View style={ {flex: 1 } }>
         <Header headerText="Meet the Team"/>
         <Team />
+        <Footer
+        footerTextLeft= "Map"
+        footerTextRight = "About Us"
+        />
       </View>
     </Provider>
   );

@@ -7,6 +7,16 @@ DATA = [
     "github_url": "https://github.com/Jacwutang",
     "linkedin_url": "https://www.linkedin.com/in/jacwutang/"
 
+  },
+
+  {
+    "id": 1,
+    "name": "Mitch Yin",
+    "title": "Software Engineer",
+    "thumbnail_image": "https://s3-us-west-2.amazonaws.com/aa-progress-tracker/students/avatars/000/002/414/medium/Qiumin_Yin_2.jpg?1507582615",
+    "github_url": "https://github.com/Rainmire",
+    "linkedin_url": "https://www.linkedin.com/in/qiumin-yin/"
+
   }
 
 ]
