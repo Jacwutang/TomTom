@@ -1,0 +1,11 @@
+DATA = [
+  {
+    "id": 0,
+    "name": "Jack Wu",
+    "title": "Software Engineer"
+  }
+
+]
+
+
+export default DATA;

@@ -1,12 +1,30 @@
-import React from 'react';
-import {View, Text} from 'react-native';
+import React, {Component} from 'react';
+import {ScrollView, Text} from 'react-native';
+import DATA from '../TeamMember';
 
-export default () => {
+class Team extends Component {
 
-  return(
-    <View>
+  componentWillMount(){
+    console.log(DATA);
+  }
+
+
+
+  renderTeam(){
+    // return this.state.teammates
+  }
+
+  render(){
+
+    return(
+    <ScrollView>
       <Text> Team Mates </Text>
-    </View>
-  );
+    </ScrollView>
+    );
+
+  };
 
 };
+
+
+export default Team;
