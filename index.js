@@ -3,6 +3,7 @@ import {Provider} from 'react-redux';
 import { AppRegistry, Text, View } from 'react-native';
 // import {createStore} from 'redux';
 import configureStore from './store';
+import Team from './src/components/Team';
 
 
 const App = () => {
@@ -11,7 +12,7 @@ const App = () => {
   return(
     <Provider store={store}>
       <View>
-        <Text> Hello World </Text>
+        <Team />
       </View>
     </Provider>
   );
