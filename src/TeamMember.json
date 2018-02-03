@@ -48,6 +48,15 @@ DATA = [
     "linkedin_url": "https://www.linkedin.com/in/bruce-wong-7a3367a6/"
 
   },
+  
+  {
+    "id": 4,
+    "name": "Guy Wassather",
+    "title": "Software Engineer",
+    "thumbnail_image": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAMABADGAAwAAQAAAAAAAAxNAAAAJDM2NzA3NTMzLWMzODgtNDcwNi1iZjI3LTg0YmM0ZDllZDYzYQ.jpg",
+    "github_url": "https://github.com/gardenFiend138",
+    "linkedin_url": "https://www.linkedin.com/in/guy-wassather-678740b7/"
+  }
 
 
 ]
