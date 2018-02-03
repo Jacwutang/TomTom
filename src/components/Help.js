@@ -7,7 +7,7 @@ const Help = () => {
 
   return(
     <View>
-      <Text> Help Screen </Text>
+      <Text> Write Help Instrucions for users? </Text>
     </View>
   );
 
