@@ -8,22 +8,17 @@ import Header from './src/components/Header';
 import Footer from './src/components/Footer';
 import RootTabs from './src/components/RootTabs';
 
-// const App = () => {
-//   const store = configureStore();
-//
-//   return(
-//     <Provider store={store}>
-//       <View style={ {flex: 1 } }>
-//         <Header headerText="Meet the Team"/>
-//         <Team />
-//         <Footer
-//         footerTextLeft= "Map"
-//         footerTextRight = "About Us"
-//         />
-//       </View>
-//     </Provider>
-//   );
-// };
+const App = () => {
+  const store = configureStore();
+
+  return(
+    <Provider store={store}>
+      <View style={ {flex: 1 } }>
+        <RootTabs />
+      </View>
+    </Provider>
+  );
+};
 
 
-AppRegistry.registerComponent('TomTom', () => RootTabs);
+AppRegistry.registerComponent('TomTom', () => App);
