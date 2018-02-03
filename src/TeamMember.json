@@ -38,6 +38,15 @@ DATA = [
     "linkedin_url": "https://www.linkedin.com/in/patrick-conde/"
 
   },
+  
+  {
+    "id": 4,
+    "name": "Guy Wassather",
+    "title": "Software Engineer",
+    "thumbnail_image": "https://s3-us-west-2.amazonaws.com/aa-progress-tracker/students/avatars/000/002/419/medium/Guy_Wassather_1.jpg?1507582564",
+    "github_url": "https://github.com/gardenFiend138",
+    "linkedin_url": "https://www.linkedin.com/in/guy-wassather-678740b7/"
+  }
 
 
 ]
