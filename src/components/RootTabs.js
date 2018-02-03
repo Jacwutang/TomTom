@@ -2,21 +2,22 @@ import { TabNavigator } from 'react-navigation';
 import React from 'react';
 import { View, Text } from 'react-native';
 import TeamScreen from './Team';
-import Header from './Header';
+import HelpScreen from './Help';
+import MapScreen from './Map';
 
 const RootTabs = TabNavigator({
 
 
 
   Map: {
-    screen: TeamScreen,
+    screen: MapScreen,
     navigationOptions:{
       tabBarLabel: 'Map',
     }
   },
 
   Help: {
-    screen: TeamScreen,
+    screen: HelpScreen,
     navigationOptions:{
       tabBarLabel: 'Help',
     }
