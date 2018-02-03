@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import { View, Text } from 'react-native';
-
+import Header from './Header';
 
 
 class Map extends Component {
@@ -16,7 +16,7 @@ class Map extends Component {
 
     return(
       <View>
-        <Text> Map Screen </Text>
+        <Header headerText="Map" />
       </View>
     );
 

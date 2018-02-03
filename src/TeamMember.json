@@ -31,11 +31,21 @@ DATA = [
 
   {
     "id": 3,
+    "name": "Guy Wassather",
+    "title": "Software Engineer",
+    "thumbnail_image": "https://media-exp2.licdn.com/media/AAMABADGAAwAAQAAAAAAAAxNAAAAJDM2NzA3NTMzLWMzODgtNDcwNi1iZjI3LTg0YmM0ZDllZDYzYQ.jpg",
+    "github_url": "https://github.com/gardenFiend138",
+    "linkedin_url": "https://www.linkedin.com/in/guy-wassather-678740b7/"
+
+  },
+
+  {
+    "id": 4,
     "name": "Bruce Wong",
     "title": "Software Engineer",
-    "thumbnail_image": "https://s3-us-west-2.amazonaws.com/aa-progress-tracker/students/avatars/000/002/419/medium/Patrick_Conde_1.jpg?1507582564",
-    "github_url": "https://github.com/pconde705",
-    "linkedin_url": "https://www.linkedin.com/in/patrick-conde/"
+    "thumbnail_image": "https://s3-us-west-2.amazonaws.com/aa-progress-tracker/students/avatars/000/002/576/medium/Bruce_Wong_1.jpg?1512770347",
+    "github_url": "https://github.com/CelesteComet",
+    "linkedin_url": "https://www.linkedin.com/in/bruce-wong-7a3367a6/"
 
   },
   
