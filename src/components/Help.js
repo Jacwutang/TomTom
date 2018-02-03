@@ -1,13 +1,13 @@
 import React from 'react';
 import { View, Text } from 'react-native';
-
+import Header from './Header';
 
 
 const Help = () => {
 
   return(
     <View>
-      <Text> Help Screen </Text>
+      <Header headerText="Help" />
     </View>
   );
 
