@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {ScrollView, Text} from 'react-native';
 import DATA from '../TeamMember';
 import TeamMemberDetail from './TeamMemberDetail';
-
+import Header from './Header';
 class Team extends Component {
 
   state = {teammates: []}
@@ -29,6 +29,7 @@ class Team extends Component {
 
     return(
     <ScrollView>
+      <Header headerText="Meet the Team"/>
       {this.renderTeam()}
     </ScrollView>
     );
@@ -37,5 +38,8 @@ class Team extends Component {
 
 };
 
+const styles = {
+
+};
 
 export default Team;
