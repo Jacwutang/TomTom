@@ -27,4 +27,9 @@ class Map extends Component {
 };
 
 
+const styles = {
+
+};
+
+
 export default Map;

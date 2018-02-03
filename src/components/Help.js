@@ -15,5 +15,8 @@ const Help = () => {
 
 };
 
+const styles = {
+
+};
 
 export default Help;
