@@ -32,8 +32,11 @@ const RootTabs = TabNavigator({
   }
 
 }, {
-    tabBarPosition: 'top',
+    tabBarPosition: 'bottom',
     animationEnabled: true,
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
     tabBarOptions: {
       activeTintColor: '#e91e63',
       labelStyle: {
