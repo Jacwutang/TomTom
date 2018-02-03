@@ -10,13 +10,17 @@ class Map extends Component {
     this.state = {};
   }
 
+  componentWillMount(){
+
+  }
+
 
 
   render(){
 
     return(
       <View>
-        <Header headerText="Map" />
+        <Header headerText="Back" />
       </View>
     );
 

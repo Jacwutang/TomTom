@@ -7,7 +7,7 @@ const Help = () => {
 
   return(
     <View>
-      <Header headerText="Help" />
+      <Header headerText="Back" />
     </View>
   );
 
